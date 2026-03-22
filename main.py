@@ -7,3 +7,5 @@ name = input("Имя: ")
 text = input("Текст: ")
 print(f"Привет {name}! Слов: {len(text.split())}, букв: {len(text)}")
 
+from config import APP_NAME
+print ("=== " + APP_NAME + " ===")
